@@ -1,0 +1,31 @@
+{
+  "name": "yield-fighters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-governance": "truffle compile --config ./truffle-config-governance.js",
+    "compile-single-period-pool": "truffle compile --config truffle-config-single-period-pool.js",
+    "compile-multi-period-pool": "truffle compile --config truffle-config-multi-period-pool.js",
+    "compile": "npm run compile-governance && npm run compile-single-period-pool && npm run compile-multi-period-pool",
+    "test": "npm run compile && mocha --timeout 20000",
+    "ganache": "ganache-cli -p 8545 -m  \"valid much hair receive slim coast family topple typical harvest cave reveal\" > ganache.log",
+    "deploy": "npm run compile && node deploy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/test-environment": "^0.1.4",
+    "@openzeppelin/test-helpers": "^0.5.6",
+    "chai": "^4.2.0",
+    "ganache-cli": "^6.10.1",
+    "mocha": "^8.1.1",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.2.11"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.5.0",
+    "truffle": "^5.1.41",
+    "yargs": "^15.4.1"
+  }
+}
