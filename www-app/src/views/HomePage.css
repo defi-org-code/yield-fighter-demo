@@ -1,0 +1,14 @@
+.HomePage-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#subtitle {
+  color: #ffbb00;
+  font-size: calc(10px + 1vmin);
+}
+
+#insert-coin {
+  color: #008aff;
+  font-size: calc(10px + 1vmin);
+}

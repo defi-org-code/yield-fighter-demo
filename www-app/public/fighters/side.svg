@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Keyshape -->
+<svg width="1000" height="1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" viewBox="0 0 1000 1000" style="white-space: pre;">
+    <image xlink:href="generic/hand2.png" width="154" height="223" preserveAspectRatio="none" transform="translate(388.094,622.521) rotate(27.4609) translate(-77,-111.5)"/>
+    <image xlink:href="generic/arm2.png" width="154" height="185" preserveAspectRatio="none" transform="translate(432.094,468.521) rotate(14.1163) translate(-77,-92.5)"/>
+    <image xlink:href="generic/leg2.png" width="135" height="217" preserveAspectRatio="none" transform="translate(404.841,880.5) translate(-67.5,-108.5)"/>
+    <image xlink:href="generic/thigh2.png" width="138.247" height="202" preserveAspectRatio="none" transform="translate(448.841,705.5) rotate(18.5142) translate(-66.2466,-101)"/>
+    <image xlink:href="generic/body.png" width="241" height="308" preserveAspectRatio="none" transform="translate(507.341,530.5) translate(-120.5,-154)"/>
+    <image xlink:href="generic/head.png" width="183" height="193" preserveAspectRatio="none" transform="translate(490.341,321.5) translate(-91.5,-96.5)"/>
+    <image xlink:href="generic/leg1.png" width="146" height="213" preserveAspectRatio="none" transform="translate(554.682,882.5) translate(-73,-106.5)"/>
+    <image xlink:href="generic/thigh1.png" width="145" height="199" preserveAspectRatio="none" transform="translate(539.341,714.5) rotate(-1.85259) translate(-72.5,-99.5)"/>
+    <image xlink:href="generic/arm1.png" width="160" height="209" preserveAspectRatio="none" transform="translate(570.341,454) rotate(-8.96491) translate(-80,-104.5)"/>
+    <image xlink:href="generic/hand1.png" width="135" height="230" preserveAspectRatio="none" transform="translate(596.841,629) translate(-67.5,-115)"/>
+</svg>

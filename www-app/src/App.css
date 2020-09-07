@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+div#root {
+  height: 100%;
+}
+
+div.RootPage {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+div.HomePage {
+  background-color: #050505;
+}
+
+div.FightPage {
+  background-image: url("img/background2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.PoolPage {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(1, 85, 147, 1) 100%);
+}
+
+div.RootMenu {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+div.RootMenu .ui.secondary.inverted.menu .active.item {
+  color: #ffbb00 !important;
+}
+
+div.RootBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  position: relative;
+}
+
+div.RootWaitingTransactions {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 3vh;
+  display: flex;
+  justify-content: center;
+}
+
+div.RootWaitingTransactions .ui.text.loader {
+  width: 30rem !important;
+}
+
+.WhiteOutline {
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+.WhiteOutlineThick {
+  text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white;
+}
+
+.BlackOutline {
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.BlackOutlineThick {
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+}
+
+div.RoundAndTimer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 3vh;
+  text-align: center;
+}
+
+div.RoundAndTimer h1.ui.header {
+  font-size: 1.8rem;
+  color: white;
+}
+
+.RoundCountdownTimer {
+  font-size: 3.5rem;
+  line-height: 2.8rem;
+  color: #fff477;
+  text-shadow: -1px -1px 0 rgb(255, 98, 0), 1px -1px 0 rgb(255, 98, 0), -1px 1px 0 rgb(255, 98, 0), 3px 3px 0 #005af5,
+    4px 4px 0 #005af5;
+}
+
+p.ModalSmall {
+  font-size: 0.7rem;
+}

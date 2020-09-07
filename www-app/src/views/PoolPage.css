@@ -1,0 +1,86 @@
+.PrevNextPool {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 3vh;
+  text-align: center;
+}
+
+div.PoolSegment {
+  background-color: rgb(249, 250, 251, 0.55) !important;
+  padding-top: 60px !important;
+  padding-bottom: 50px !important;
+}
+
+div.PoolVerb {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 2vh;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+p.PoolToken {
+  font-size: 10px;
+  height: 1rem;
+}
+
+p.PoolToken a {
+  color: #1b70c6;
+}
+
+div.PoolSegment > h1 > img {
+  background-color: white !important;
+  max-height: 42px !important;
+  max-width: 42px !important;
+  margin-top: 0 !important;
+  margin-bottom: 11px !important;
+  margin-right: 25px !important;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+}
+
+p.PoolBalance {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.8vh;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #1b70c6;
+}
+
+p.PoolAmount {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 1.28571429rem;
+}
+
+p.PoolAmount > span {
+  font-size: 1.8rem;
+}
+
+.ui.placeholder.segment div.PoolButtons .button {
+  display: inline;
+}
+
+.SubPoolMenu p {
+  font-size: 0.8rem;
+}
+
+.SubPoolMenu img {
+  float: left;
+}
+
+.SubPoolMenu > .column {
+  padding: 0.5rem !important;
+}
+
+.LatestFarm {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #fff477;
+  text-shadow: -1px -1px 0 rgb(255, 98, 0), 1px -1px 0 rgb(255, 98, 0), -1px 1px 0 rgb(255, 98, 0), 3px 3px 0 #005af5,
+    4px 4px 0 #005af5;
+  margin-bottom: 1rem;
+}

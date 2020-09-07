@@ -1,0 +1,992 @@
+{
+  "0x946551dd05c5abd7cc808927480225ce36d8c475": {
+    "name": "BigONE Token",
+    "coin": "ONE",
+    "logo": "https://etherscan.io/token/images/bigone_32.png",
+    "fighter": "generic"
+  },
+  "0x1fcdce58959f536621d76f5b7ffb955baa5a672f": {
+    "name": "The Force Token",
+    "coin": "FOR",
+    "logo": "https://etherscan.io/token/images/forceprotocol_28.png",
+    "fighter": "generic"
+  },
+  "0x04abeda201850ac0124161f037efd70c74ddc74c": {
+    "name": "NEST",
+    "coin": "NEST",
+    "logo": "https://etherscan.io/token/images/nest_28.png",
+    "fighter": "generic"
+  },
+  "0x431ad2ff6a9c365805ebad47ee021148d6f7dbe0": {
+    "name": "DForce",
+    "coin": "DF",
+    "logo": "https://etherscan.io/token/images/dForce_32.png",
+    "fighter": "generic"
+  },
+  "0x45f24BaEef268BB6d63AEe5129015d69702BCDfa": {
+    "name": "YFValue",
+    "coin": "YFV",
+    "logo": "https://etherscan.io/token/images/yfv_32.png",
+    "fighter": "generic"
+  },
+  "0xa1d0E215a23d7030842FC67cE582a6aFa3CCaB83": {
+    "name": "YFII.finance",
+    "coin": "YFII",
+    "logo": "https://etherscan.io/token/images/YFII_32.png",
+    "fighter": "generic"
+  },
+  "0xAba8cAc6866B83Ae4eec97DD07ED254282f6aD8A": {
+    "name": "YAMv2",
+    "coin": "YAMv2",
+    "logo": "https://etherscan.io/token/images/YamFinanceV2_32.png",
+    "fighter": "generic"
+  },
+  "0xfffffffFf15AbF397dA76f1dcc1A1604F45126DB": {
+    "name": "FalconSwap Token",
+    "coin": "FSW",
+    "logo": "https://etherscan.io/token/images/fsw_32.png",
+    "fighter": "generic"
+  },
+  "0xc75F15AdA581219c95485c578E124df3985e4CE0": {
+    "name": "zzz.finance",
+    "coin": "ZZZ",
+    "logo": "https://etherscan.io/token/images/zzz_32.png",
+    "fighter": "generic"
+  },
+  "0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2": {
+    "name": "Meta",
+    "coin": "MTA",
+    "logo": "https://etherscan.io/token/images/meta_32.png",
+    "fighter": "generic"
+  },
+  "0x2ba592F78dB6436527729929AAf6c908497cB200": {
+    "name": "Cream",
+    "coin": "CREAM",
+    "logo": "https://etherscan.io/token/images/CreamFinance_32.png",
+    "fighter": "generic"
+  },
+  "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5": {
+    "name": "$BASED",
+    "coin": "$BASED",
+    "logo": "https://etherscan.io/token/images/basedMoney_32.png",
+    "fighter": "generic"
+  },
+  "0x28cb7e841ee97947a86B06fA4090C8451f64c0be": {
+    "name": "YFLink",
+    "coin": "YFL",
+    "logo": "https://etherscan.io/token/images/yflink_32.png?v=2",
+    "fighter": "generic"
+  },
+  "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2": {
+    "name": "SushiToken",
+    "coin": "SUSHI",
+    "logo": "https://etherscan.io/token/images/sushiswap_32.png",
+    "fighter": "generic"
+  },
+  "0xa66daa57432024023db65477ba87d4e7f5f95213": {
+    "name": "HuobiPoolToken",
+    "coin": "HPT",
+    "logo": "https://etherscan.io/token/images/huobi_28_2.png",
+    "fighter": "generic"
+  },
+  "0xcaaa93712bdac37f736c323c93d4d5fdefcc31cc": {
+    "name": "CryptalDash",
+    "coin": "CRD",
+    "logo": "https://etherscan.io/token/images/cryptaldash_28.png",
+    "fighter": "generic"
+  },
+  "0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3": {
+    "name": "Bitfinex LEO Token",
+    "coin": "LEO",
+    "logo": "https://etherscan.io/token/images/leo_28_2.png",
+    "fighter": "generic"
+  },
+  "0xd45247c07379d94904e0a87b4481f0a1ddfa0c64": {
+    "name": "Buggyra Coin Zero",
+    "coin": "BCZERO",
+    "logo": "https://etherscan.io/token/images/nuggyratoken_28.png",
+    "fighter": "generic"
+  },
+  "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828": {
+    "name": "UMA Voting Token v1",
+    "coin": "UMA",
+    "logo": "https://etherscan.io/token/images/umavotingtokenv1_32.png?v=3",
+    "fighter": "generic"
+  },
+  "0xd7c49cee7e9188cca6ad8ff264c1da2e69d4cf3b": {
+    "name": "NXM",
+    "coin": "NXM",
+    "logo": "https://etherscan.io/token/images/nxm_32.png",
+    "fighter": "generic"
+  },
+  "0xb683d83a532e2cb7dfa5275eed3698436371cc9f": {
+    "name": "BTU Protocol",
+    "coin": "BTU",
+    "logo": "https://etherscan.io/token/images/btu_28.png",
+    "fighter": "generic"
+  },
+  "0x0d438f3b5175bebc262bf23753c1e53d03432bde": {
+    "name": "Wrapped NXM",
+    "coin": "wNXM",
+    "logo": "https://etherscan.io/token/images/nxm_32.png",
+    "fighter": "generic"
+  },
+  "0xf1290473e210b2108a85237fbcd7b6eb42cc654f": {
+    "name": "HEDG",
+    "coin": "HEDG",
+    "logo": "https://etherscan.io/token/images/hedgefundtoken_28.png",
+    "fighter": "generic"
+  },
+  "0x476c5E26a75bd202a9683ffD34359C0CC15be0fF": {
+    "name": "Serum",
+    "coin": "SRM",
+    "logo": "https://etherscan.io/token/images/serum_32.png",
+    "fighter": "generic"
+  },
+  "0x0Ae055097C6d159879521C384F1D2123D1f195e6": {
+    "name": "STAKE",
+    "coin": "STAKE",
+    "logo": "https://etherscan.io/token/images/stake_32.png?v=2",
+    "fighter": "generic"
+  },
+  "0xb91318f35bdb262e9423bc7c7c2a3a93dd93c92c": {
+    "name": "Nuls",
+    "coin": "NULS",
+    "logo": "https://etherscan.io/token/images/nuls28.png",
+    "fighter": "generic"
+  },
+  "0xcfb98637bcae43C13323EAa1731cED2B716962fD": {
+    "name": "NimiqNetwork",
+    "coin": "NET",
+    "logo": "https://etherscan.io/token/images/nimiq_28.png",
+    "fighter": "generic"
+  },
+  "0x221657776846890989a759ba2973e427dff5c9bb": {
+    "name": "Reputation",
+    "coin": "REPv2",
+    "logo": "https://etherscan.io/token/images/repv2_32.png",
+    "fighter": "generic"
+  },
+  "0x1602af2c782cc03f9241992e243290fccf73bb13": {
+    "name": "Qubitica",
+    "coin": "QBIT",
+    "logo": "https://etherscan.io/token/images/qubitica_28_3.png",
+    "fighter": "generic"
+  },
+  "0xb4efd85c19999d84251304bda99e90b92300bd93": {
+    "name": "Rocket Pool",
+    "coin": "RPL",
+    "logo": "https://etherscan.io/token/images/Rocketpool_32.png",
+    "fighter": "generic"
+  },
+  "0xec67005c4e498ec7f55e092bd1d35cbc47c91892": {
+    "name": "Melon Token",
+    "coin": "MLN",
+    "logo": "https://etherscan.io/token/images/melon_28_2.png",
+    "fighter": "generic"
+  },
+  "0xc9859fccc876e6b4b3c749c5d29ea04f48acb74f": {
+    "name": "Ino Coin",
+    "coin": "INO",
+    "logo": "https://etherscan.io/token/images/inocoin_28_2.png",
+    "fighter": "generic"
+  },
+  "0x8c15ef5b4b21951d50e53e4fbda8298ffad25057": {
+    "name": "Function X",
+    "coin": "FX",
+    "logo": "https://etherscan.io/token/images/functionx_28.png",
+    "fighter": "generic"
+  },
+  "0x6781a0f84c7e9e846dcb84a9a5bd49333067b104": {
+    "name": "ZAP TOKEN",
+    "coin": "ZAP",
+    "logo": "https://etherscan.io/token/images/zapstore_28.png",
+    "fighter": "generic"
+  },
+  "0xd01db73e047855efb414e6202098c4be4cd2423b": {
+    "name": "Uquid Coin",
+    "coin": "UQC",
+    "logo": "https://etherscan.io/token/images/uquid_28.png",
+    "fighter": "generic"
+  },
+  "0x4f9254c83eb525f9fcf346490bbb3ed28a81c667": {
+    "name": "CelerToken",
+    "coin": "CELR",
+    "logo": "https://etherscan.io/token/images/celer_28.png",
+    "fighter": "generic"
+  },
+  "0xe65ee7c03bbb3c950cfd4895c24989afa233ef01": {
+    "name": "Zynecoin",
+    "coin": "ZYN",
+    "logo": "https://etherscan.io/token/images/zynetoken_28.png",
+    "fighter": "generic"
+  },
+  "0x32d74896f05204d1b6ae7b0a3cebd7fc0cd8f9c7": {
+    "name": "Kcash",
+    "coin": "KCASH",
+    "logo": "https://etherscan.io/token/images/kcash_28.png",
+    "fighter": "generic"
+  },
+  "0x0ba45a8b5d5575935b8158a88c631e9f9c95a2e5": {
+    "name": "Tellor Tributes",
+    "coin": "TRB",
+    "logo": "https://etherscan.io/token/images/tellortributes_32.png?v=2",
+    "fighter": "generic"
+  },
+  "0x56d811088235F11C8920698a204A5010a788f4b3": {
+    "name": "bZx Protocol Token",
+    "coin": "BZRX",
+    "logo": "https://etherscan.io/token/images/bzxprotocoltoken_32.png",
+    "fighter": "generic"
+  },
+  "0x445f51299ef3307dbd75036dd896565f5b4bf7a5": {
+    "name": "V-ID Token",
+    "coin": "VIDT",
+    "logo": "https://etherscan.io/token/images/v-id_28.png",
+    "fighter": "generic"
+  },
+  "0x8ab7404063ec4dbcfd4598215992dc3f8ec853d7": {
+    "name": "Akropolis",
+    "coin": "AKRO",
+    "logo": "https://etherscan.io/token/images/Akropolis_32.png",
+    "fighter": "generic"
+  },
+  "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e": {
+    "name": "yearn.finance",
+    "coin": "YFI",
+    "logo": "https://etherscan.io/token/images/yfi_32.png",
+    "fighter": "generic"
+  },
+  "0x5ca381bbfb58f0092df149bd3d243b08b9a8386e": {
+    "name": "MXCToken",
+    "coin": "MXC",
+    "logo": "https://etherscan.io/token/images/mxc_28.png",
+    "fighter": "generic"
+  },
+  "0xff56cc6b1e6ded347aa0b7676c85ab0b3d08b0fa": {
+    "name": "Orbs",
+    "coin": "ORBS",
+    "logo": "https://etherscan.io/token/images/orbs_28.png",
+    "fighter": "generic"
+  },
+  "0x915044526758533dfb918eceb6e44bc21632060d": {
+    "name": "Chroma",
+    "coin": "CHR",
+    "logo": "https://etherscan.io/token/images/chromia_32.png",
+    "fighter": "generic"
+  },
+  "0xD533a949740bb3306d119CC777fa900bA034cd52": {
+    "name": "Curve DAO Token",
+    "coin": "CRV",
+    "logo": "https://etherscan.io/token/images/Curvefi_32.png",
+    "fighter": "generic"
+  },
+  "0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d": {
+    "name": "Celsius",
+    "coin": "CEL",
+    "logo": "https://etherscan.io/token/images/celsiustoken1_28.png",
+    "fighter": "generic"
+  },
+  "0xaaaf91d9b90df800df4f55c205fd6989c977e73a": {
+    "name": "Monolith",
+    "coin": "TKN",
+    "logo": "https://etherscan.io/token/images/monolith_32.png",
+    "fighter": "generic"
+  },
+  "0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d": {
+    "name": "Pinakion",
+    "coin": "PNK",
+    "logo": "https://etherscan.io/token/images/kelros_28.png",
+    "fighter": "generic"
+  },
+  "0x41ab1b6fcbb2fa9dced81acbdec13ea6315f2bf2": {
+    "name": "XinFin XDCE",
+    "coin": "XDCE",
+    "logo": "https://etherscan.io/token/images/xinfin_28.png",
+    "fighter": "generic"
+  },
+  "0x8290333cef9e6d528dd5618fb97a76f268f3edd4": {
+    "name": "Ankr Network",
+    "coin": "ANKR",
+    "logo": "https://etherscan.io/token/images/ankr_28.png",
+    "fighter": "generic"
+  },
+  "0x89Ab32156e46F46D02ade3FEcbe5Fc4243B9AAeD": {
+    "name": "pNetwork Token",
+    "coin": "PNT",
+    "logo": "https://etherscan.io/token/images/pnetworktoken_32.png",
+    "fighter": "generic"
+  },
+  "0x543ff227f64aa17ea132bf9886cab5db55dcaddf": {
+    "name": "DAOstack",
+    "coin": "GEN",
+    "logo": "https://etherscan.io/token/images/daostack1_28.png",
+    "fighter": "generic"
+  },
+  "0x1d287cc25dad7ccaf76a26bc660c5f7c8e2a05bd": {
+    "name": "Fetch",
+    "coin": "FET",
+    "logo": "https://etherscan.io/token/images/fetchai_28.png",
+    "fighter": "generic"
+  },
+  "0x4a220e6096b25eadb88358cb44068a3248254675": {
+    "name": "Quant",
+    "coin": "QNT",
+    "logo": "https://etherscan.io/token/images/quantnetwork_28_2.png",
+    "fighter": "generic"
+  },
+  "0x0A913beaD80F321E7Ac35285Ee10d9d922659cB7": {
+    "name": "DOS Network Token",
+    "coin": "DOS",
+    "logo": "https://etherscan.io/token/images/dostoken_28.png",
+    "fighter": "generic"
+  },
+  "0xEd91879919B71bB6905f23af0A68d231EcF87b14": {
+    "name": "DMM: Governance",
+    "coin": "DMG",
+    "logo": "https://etherscan.io/token/images/dmm_dmg_32.png",
+    "fighter": "generic"
+  },
+  "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55": {
+    "name": "BandToken",
+    "coin": "BAND",
+    "logo": "https://etherscan.io/token/images/bandtoken_32.png",
+    "fighter": "generic"
+  },
+  "0x4cc19356f2d37338b9802aa8e8fc58b0373296e7": {
+    "name": "SelfKey",
+    "coin": "KEY",
+    "logo": "https://etherscan.io/token/images/selfkey_28.png",
+    "fighter": "generic"
+  },
+  "0x26e75307fc0c021472feb8f727839531f112f317": {
+    "name": "Crypto20",
+    "coin": "C20",
+    "logo": "https://etherscan.io/token/images/crypto20_28.png",
+    "fighter": "generic"
+  },
+  "0xc80c5e40220172b36adee2c951f26f2a577810c5": {
+    "name": "Banker Token",
+    "coin": "BNK",
+    "logo": "https://etherscan.io/token/images/bankera_28.png",
+    "fighter": "generic"
+  },
+  "0x973e52691176d36453868d9d86572788d27041a9": {
+    "name": "DxChain Token",
+    "coin": "DX",
+    "logo": "https://etherscan.io/token/images/dxchain_28_2.png",
+    "fighter": "generic"
+  },
+  "0xF433089366899D83a9f26A773D59ec7eCF30355e": {
+    "name": "Metal",
+    "coin": "MTL",
+    "logo": "https://etherscan.io/token/images/metal_32.png",
+    "fighter": "generic"
+  },
+  "0xd0352a019e9ab9d757776f532377aaebd36fd541": {
+    "name": "Fusion",
+    "coin": "FSN",
+    "logo": "https://etherscan.io/token/images/fusion_28.png",
+    "fighter": "generic"
+  },
+  "0xe884cc2795b9c45beeac0607da9539fd571ccf85": {
+    "name": "Ultiledger",
+    "coin": "ULT",
+    "logo": "https://etherscan.io/token/images/ultiledger_28.png",
+    "fighter": "generic"
+  },
+  "0x4e15361fd6b4bb609fa63c81a2be19d873717870": {
+    "name": "Fantom Token",
+    "coin": "FTM",
+    "logo": "https://etherscan.io/token/images/fantom_28.png",
+    "fighter": "generic"
+  },
+  "0x27054b13b1b798b345b591a4d22e6562d47ea75a": {
+    "name": "AirSwap",
+    "coin": "AST",
+    "logo": "https://etherscan.io/token/images/airswap_28_2.png",
+    "fighter": "generic"
+  },
+  "0x6810e776880c02933d47db1b9fc05908e5386b96": {
+    "name": "Gnosis",
+    "coin": "GNO",
+    "logo": "https://etherscan.io/token/images/gnosans_32.png",
+    "fighter": "generic"
+  },
+  "0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419": {
+    "name": "DIAToken",
+    "coin": "DIA",
+    "logo": "https://etherscan.io/token/images/diatoken_32.png?v=3",
+    "fighter": "generic"
+  },
+  "0x1122b6a0e00dce0563082b6e2953f3a943855c1f": {
+    "name": "Centrality Token",
+    "coin": "CENNZ",
+    "logo": "https://etherscan.io/token/images/centrality_28.png",
+    "fighter": "generic"
+  },
+  "0x7AFeBBB46fDb47ed17b22ed075Cde2447694fB9e": {
+    "name": "Ocean Token",
+    "coin": "OCEAN",
+    "logo": "https://etherscan.io/token/images/oceantoken_28.png",
+    "fighter": "generic"
+  },
+  "0x6f259637dcd74c767781e37bc6133cd6a68aa161": {
+    "name": "HuobiToken",
+    "coin": "HT",
+    "logo": "https://etherscan.io/token/images/huobi_28.png",
+    "fighter": "generic"
+  },
+  "0xba100000625a3754423978a60c9317c58a424e3d": {
+    "name": "Balancer",
+    "coin": "BAL",
+    "logo": "https://etherscan.io/token/images/Balancer_32.png",
+    "fighter": "generic"
+  },
+  "0x6fb3e0a217407efff7ca062d46c26e5d60a14d69": {
+    "name": "IoTeX Network",
+    "coin": "IOTX",
+    "logo": "https://etherscan.io/token/images/iotex_28.png",
+    "fighter": "generic"
+  },
+  "0x4CEdA7906a5Ed2179785Cd3A40A69ee8bc99C466": {
+    "name": "AION",
+    "coin": "AION",
+    "logo": "https://etherscan.io/token/images/aion-network_28.png",
+    "fighter": "generic"
+  },
+  "0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f": {
+    "name": "Trace",
+    "coin": "TRAC",
+    "logo": "https://etherscan.io/token/images/origintrail_28.png",
+    "fighter": "generic"
+  },
+  "0xa4e8c3ec456107ea67d3075bf9e3df3a75823db0": {
+    "name": "Loom",
+    "coin": "LOOM",
+    "logo": "https://etherscan.io/token/images/loom_28.png",
+    "fighter": "generic"
+  },
+  "0x3506424f91fd33084466f402d5d97f05f8e3b4af": {
+    "name": "chiliZ",
+    "coin": "CHZ",
+    "logo": "https://etherscan.io/token/images/chiliz_28.png",
+    "fighter": "generic"
+  },
+  "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0": {
+    "name": "Matic Token",
+    "coin": "MATIC",
+    "logo": "https://etherscan.io/token/images/matictoken_28.png",
+    "fighter": "generic"
+  },
+  "0x1c83501478f1320977047008496dacbd60bb15ef": {
+    "name": "DigitexFutures",
+    "coin": "DGTX",
+    "logo": "https://etherscan.io/token/images/digitextoken_28.png",
+    "fighter": "generic"
+  },
+  "0x8762db106b2c2a0bccb3a80d1ed41273552616e8": {
+    "name": "Reserve Rights",
+    "coin": "RSR",
+    "logo": "https://etherscan.io/token/images/reserverights_28.png",
+    "fighter": "generic"
+  },
+  "0x888666CA69E0f178DED6D75b5726Cee99A87D698": {
+    "name": "ICONOMI",
+    "coin": "ICN",
+    "logo": "https://etherscan.io/token/images/iconomi_28_2.png",
+    "fighter": "generic"
+  },
+  "0x940a2db1b7008b6c776d4faaca729d6d4a4aa551": {
+    "name": "Dusk Network",
+    "coin": "DUSK",
+    "logo": "https://etherscan.io/token/images/dusknetwork_28.png",
+    "fighter": "generic"
+  },
+  "0x5d65D971895Edc438f465c17DB6992698a52318D": {
+    "name": "Nebulas",
+    "coin": "NAS",
+    "logo": "https://etherscan.io/token/images/nebulas_28.png",
+    "fighter": "generic"
+  },
+  "0x8971f9fd7196e5cee2c1032b50f656855af7dd26": {
+    "name": "Lambda",
+    "coin": "LAMB",
+    "logo": "https://etherscan.io/token/images/lambda_28.png",
+    "fighter": "generic"
+  },
+  "0x255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6": {
+    "name": "Raiden",
+    "coin": "RDN",
+    "logo": "https://etherscan.io/token/images/raiden28.png",
+    "fighter": "generic"
+  },
+  "0x8eb24319393716668d768dcec29356ae9cffe285": {
+    "name": "SingularityNET",
+    "coin": "AGI",
+    "logo": "https://etherscan.io/token/images/singularitynet_28.png",
+    "fighter": "generic"
+  },
+  "0x8400d94a5cb0fa0d041a3788e395285d61c9ee5e": {
+    "name": "UniBright",
+    "coin": "UBT",
+    "logo": "https://etherscan.io/token/images/unibright_28.png",
+    "fighter": "generic"
+  },
+  "0x39bb259f66e1c59d5abef88375979b4d20d98022": {
+    "name": "WAX Token",
+    "coin": "WAX",
+    "logo": "https://etherscan.io/token/images/wax.png",
+    "fighter": "generic"
+  },
+  "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f": {
+    "name": "Synthetix Network Token",
+    "coin": "SNX",
+    "logo": "https://etherscan.io/token/images/synthetix_28.png",
+    "fighter": "generic"
+  },
+  "0x5b2e4a700dfbc560061e957edec8f6eeeb74a320": {
+    "name": "Insolar",
+    "coin": "INS",
+    "logo": "https://etherscan.io/token/images/insolar_28_2.png",
+    "fighter": "generic"
+  },
+  "0x607F4C5BB672230e8672085532f7e901544a7375": {
+    "name": "RLC",
+    "coin": "RLC",
+    "logo": "https://etherscan.io/token/images/iexec_28.png",
+    "fighter": "generic"
+  },
+  "0x4575f41308EC1483f3d399aa9a2826d74Da13Deb": {
+    "name": "Orchid",
+    "coin": "OXT",
+    "logo": "https://etherscan.io/token/images/orchid_32.png?v=3",
+    "fighter": "generic"
+  },
+  "0x408e41876cccdc0f92210600ef50372656052a38": {
+    "name": "Republic",
+    "coin": "REN",
+    "logo": "https://etherscan.io/token/images/rentoken2_28.png",
+    "fighter": "generic"
+  },
+  "0xd46ba6d942050d489dbd938a2c909a5d5039a161": {
+    "name": "Ampleforth",
+    "coin": "AMPL",
+    "logo": "https://etherscan.io/token/images/ampleforth_32.png",
+    "fighter": "generic"
+  },
+  "0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9": {
+    "name": "Swipe",
+    "coin": "SXP",
+    "logo": "https://etherscan.io/token/images/swipe_32.png",
+    "fighter": "generic"
+  },
+  "0x70a72833d6bf7f508c8224ce59ea1ef3d0ea3a38": {
+    "name": "UTRUST",
+    "coin": "UTK",
+    "logo": "https://etherscan.io/token/images/utrust_32.png",
+    "fighter": "generic"
+  },
+  "0xf0ee6b27b759c9893ce4f094b49ad28fd15a23e4": {
+    "name": "Enigma",
+    "coin": "ENG",
+    "logo": "https://etherscan.io/token/images/enigma_28.png",
+    "fighter": "generic"
+  },
+  "0xf970b8e36e23f7fc3fd752eea86f8be8d83375a6": {
+    "name": "RipioCreditNetwork",
+    "coin": "RCN",
+    "logo": "https://etherscan.io/token/images/ripio_28_2.png",
+    "fighter": "generic"
+  },
+  "0xbd0793332e9fb844a52a205a233ef27a5b34b927": {
+    "name": "ZBToken",
+    "coin": "ZB",
+    "logo": "https://etherscan.io/token/images/zb_28_1.png",
+    "fighter": "generic"
+  },
+  "0xa974c709cfb4566686553a20790685a47aceaa33": {
+    "name": "Mixin",
+    "coin": "XIN",
+    "logo": "https://etherscan.io/token/images/mixin_28.png",
+    "fighter": "generic"
+  },
+  "0xea11755ae41d889ceec39a63e6ff75a02bc1c00d": {
+    "name": "Cortex Coin",
+    "coin": "CTXC",
+    "logo": "https://etherscan.io/token/images/cortex_28.png",
+    "fighter": "generic"
+  },
+  "0xba9d4199fab4f26efe3551d490e3821486f135ba": {
+    "name": "SwissBorg",
+    "coin": "CHSB",
+    "logo": "https://etherscan.io/token/images/swissborg_28_3.png",
+    "fighter": "generic"
+  },
+  "0xdf2c7238198ad8b389666574f2d8bc411a4b7428": {
+    "name": "Mainframe Token",
+    "coin": "MFT",
+    "logo": "https://etherscan.io/token/images/mainframe_28.png",
+    "fighter": "generic"
+  },
+  "0xbe9375c6a420d2eeb258962efb95551a5b722803": {
+    "name": "StormX",
+    "coin": "STMX",
+    "logo": "https://etherscan.io/token/images/stormx_32.png",
+    "fighter": "generic"
+  },
+  "0x5732046a883704404f284ce41ffadd5b007fd668": {
+    "name": "Bluzelle",
+    "coin": "BLZ",
+    "logo": "https://etherscan.io/token/images/bluzelle28.png",
+    "fighter": "generic"
+  },
+  "0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27": {
+    "name": "Zilliqa",
+    "coin": "ZIL",
+    "logo": "https://etherscan.io/token/images/zilliqa_28_2.png",
+    "fighter": "generic"
+  },
+  "0xd4c435f5b09f855c3317c8524cb1f586e42795fa": {
+    "name": "Cindicator",
+    "coin": "CND",
+    "logo": "https://etherscan.io/token/images/cindicatortoken_28.png",
+    "fighter": "generic"
+  },
+  "0x960b236A07cf122663c4303350609A66A7B288C0": {
+    "name": "Aragon",
+    "coin": "ANT",
+    "logo": "https://etherscan.io/token/images/aragon_32.png",
+    "fighter": "generic"
+  },
+  "0xb7cb1c96db6b22b0d3d9536e0108d062bd488f74": {
+    "name": "Walton",
+    "coin": "WTC",
+    "logo": "https://etherscan.io/token/images/walton_28_2.png",
+    "fighter": "generic"
+  },
+  "0x1776e1f26f98b1a5df9cd347953a26dd3cb46671": {
+    "name": "Numeraire",
+    "coin": "NMR",
+    "logo": "https://etherscan.io/token/images/numeraire_28_2.png",
+    "fighter": "generic"
+  },
+  "0x8207c1ffc5b6804f6024322ccf34f29c3541ae26": {
+    "name": "OriginToken",
+    "coin": "OGN",
+    "logo": "https://etherscan.io/token/images/origintoken_28.png",
+    "fighter": "generic"
+  },
+  "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2": {
+    "name": "Maker",
+    "coin": "MKR",
+    "logo": "https://etherscan.io/token/images/mkr-etherscan-35.png",
+    "fighter": "generic"
+  },
+  "0x3883f5e181fccaf8410fa61e12b59bad963fb645": {
+    "name": "Theta Token",
+    "coin": "THETA",
+    "logo": "https://etherscan.io/token/images/theta_28.png",
+    "fighter": "generic"
+  },
+  "0x5af2be193a6abca9c8817001f45744777db30756": {
+    "name": "Voyager",
+    "coin": "VGX",
+    "logo": "https://etherscan.io/token/images/ethos_32.png",
+    "fighter": "generic"
+  },
+  "0xd4fa1460f537bb9085d22c7bccb5dd450ef28e3a": {
+    "name": "Populous",
+    "coin": "PPT",
+    "logo": "https://etherscan.io/token/images/populous_28.png",
+    "fighter": "generic"
+  },
+  "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c": {
+    "name": "Bancor",
+    "coin": "BNT",
+    "logo": "https://etherscan.io/token/images/bancor.png",
+    "fighter": "generic"
+  },
+  "0x37f04d2c3ae075fad5483bb918491f656b12bdb6": {
+    "name": "Vestchain",
+    "coin": "VEST",
+    "logo": "https://etherscan.io/token/images/vestchain_28.png",
+    "fighter": "generic"
+  },
+  "0xc00e94cb662c3520282e6f5717214004a7f26888": {
+    "name": "Compound",
+    "coin": "COMP",
+    "logo": "https://etherscan.io/token/images/comp_32.png",
+    "fighter": "generic"
+  },
+  "0xb63b606ac810a52cca15e44bb630fd42d8d1d83d": {
+    "name": "MCO",
+    "coin": "MCO",
+    "logo": "https://etherscan.io/token/images/cryptocom_28.png",
+    "fighter": "generic"
+  },
+  "0xfe5f141bf94fe84bc28ded0ab966c16b17490657": {
+    "name": "LibraToken",
+    "coin": "LBA",
+    "logo": "https://etherscan.io/token/images/cred_28.png",
+    "fighter": "generic"
+  },
+  "0x3597bfd533a99c9aa083587b074434e61eb0a258": {
+    "name": "DENT",
+    "coin": "DENT",
+    "logo": "https://etherscan.io/token/images/dentcoin.png",
+    "fighter": "generic"
+  },
+  "0x8f8221afbb33998d8584a2b05749ba73c37a938a": {
+    "name": "Request",
+    "coin": "REQ",
+    "logo": "https://etherscan.io/token/images/request_32.png",
+    "fighter": "generic"
+  },
+  "0x6c6ee5e31d828de241282b9606c8e98ea48526e2": {
+    "name": "HoloToken",
+    "coin": "HOT",
+    "logo": "https://etherscan.io/token/images/holo_28.png",
+    "fighter": "generic"
+  },
+  "0x4f878c0852722b0976a955d68b376e4cd4ae99e5": {
+    "name": "WaykiCoin",
+    "coin": "WIC",
+    "logo": "https://etherscan.io/token/images/waykichain_28.png",
+    "fighter": "generic"
+  },
+  "0x419c4db4b9e25d6db2ad9691ccb832c8d9fda05e": {
+    "name": "Dragon",
+    "coin": "DRGN",
+    "logo": "https://etherscan.io/token/images/dragonchain_32.png",
+    "fighter": "generic"
+  },
+  "0xfa1a856cfa3409cfa145fa4e20eb270df3eb21ab": {
+    "name": "IOSToken",
+    "coin": "IOST",
+    "logo": "https://etherscan.io/token/images/iost_28.png",
+    "fighter": "generic"
+  },
+  "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b": {
+    "name": "Crypto.com Coin",
+    "coin": "CRO",
+    "logo": "https://etherscan.io/token/images/cro_32.png",
+    "fighter": "generic"
+  },
+  "0x75231f58b43240c9718dd58b4967c5114342a86c": {
+    "name": "OKB",
+    "coin": "OKB",
+    "logo": "https://etherscan.io/token/images/okex_28.png",
+    "fighter": "generic"
+  },
+  "0x99ea4db9ee77acd40b119bd1dc4e33e1c070b80d": {
+    "name": "Quantstamp",
+    "coin": "QSP",
+    "logo": "https://etherscan.io/token/images/quantstamp28.png",
+    "fighter": "generic"
+  },
+  "0x17aa18a4b64a55abed7fa543f2ba4e91f2dce482": {
+    "name": "Insight Chain",
+    "coin": "INB",
+    "logo": "https://etherscan.io/token/images/insightchain28.png",
+    "fighter": "generic"
+  },
+  "0xbe428c3867f05dea2a89fc76a102b544eac7f772": {
+    "name": "CyberVeinToken",
+    "coin": "CVT",
+    "logo": "https://etherscan.io/token/images/cyberverin_28.png",
+    "fighter": "generic"
+  },
+  "0x0f5d2fb29fb7d3cfee444a200298f468908cc942": {
+    "name": "Decentraland",
+    "coin": "MANA",
+    "logo": "https://etherscan.io/token/images/decentraland_32.png?v=1",
+    "fighter": "generic"
+  },
+  "0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206": {
+    "name": "Nexo",
+    "coin": "NEXO",
+    "logo": "https://etherscan.io/token/images/nexo_32.png",
+    "fighter": "generic"
+  },
+  "0xd850942ef8811f2a866692a623011bde52a462c1": {
+    "name": "VeChain",
+    "coin": "VEN",
+    "logo": "https://etherscan.io/token/images/vechain_28.png",
+    "fighter": "generic"
+  },
+  "0x41e5560054824ea6b0732e656e3ad64e20e94e45": {
+    "name": "Civic",
+    "coin": "CVC",
+    "logo": "https://etherscan.io/token/images/civic_28_2.png",
+    "fighter": "generic"
+  },
+  "0xcb97e65f07da24d46bcdd078ebebd7c6e6e3d750": {
+    "name": "Bytom",
+    "coin": "BTM",
+    "logo": "https://etherscan.io/token/images/bytom_28.png",
+    "fighter": "generic"
+  },
+  "0xbf2179859fc6d5bee9bf9158632dc51678a4100e": {
+    "name": "ELF",
+    "coin": "ELF",
+    "logo": "https://etherscan.io/token/images/aelf_28.png",
+    "fighter": "generic"
+  },
+  "0x595832f8fc6bf59c85c527fec3740a1b7a361269": {
+    "name": "PowerLedger",
+    "coin": "POWR",
+    "logo": "https://etherscan.io/token/images/powerledger_28_2.png",
+    "fighter": "generic"
+  },
+  "0x1410434b0346f5be678d0fb554e5c7ab620f8f4a": {
+    "name": "KAN",
+    "coin": "KAN",
+    "logo": "https://etherscan.io/token/images/kanland28.png",
+    "fighter": "generic"
+  },
+  "0x2ef52Ed7De8c5ce03a4eF0efbe9B7450F2D7Edc9": {
+    "name": "Revain",
+    "coin": "REV",
+    "logo": "https://etherscan.io/token/images/revain_32.png",
+    "fighter": "generic"
+  },
+  "0x653430560be843c4a3d143d0110e896c2ab8ac0d": {
+    "name": "Molecular Future",
+    "coin": "MOF",
+    "logo": "https://etherscan.io/token/images/molecular_28.png",
+    "fighter": "generic"
+  },
+  "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c": {
+    "name": "EnjinCoin",
+    "coin": "ENJ",
+    "logo": "https://etherscan.io/token/images/enjin_28_2.png",
+    "fighter": "generic"
+  },
+  "0x039b5649a59967e3e936d7471f9c3700100ee1ab": {
+    "name": "Kucoin Shares",
+    "coin": "KCS",
+    "logo": "https://etherscan.io/token/images/kucoin_28.png",
+    "fighter": "generic"
+  },
+  "0x80a7e048f37a50500351c204cb407766fa3bae7f": {
+    "name": "Crypterium",
+    "coin": "CRPT",
+    "logo": "https://etherscan.io/token/images/crpt_32.png",
+    "fighter": "generic"
+  },
+  "0xbbbbca6a901c926f240b89eacb641d8aec7aeafd": {
+    "name": "LoopringCoin V2",
+    "coin": "LRC",
+    "logo": "https://etherscan.io/token/images/lrc_32.png",
+    "fighter": "generic"
+  },
+  "0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac": {
+    "name": "Storj",
+    "coin": "STORJ",
+    "logo": "https://etherscan.io/token/images/storj_32.png",
+    "fighter": "generic"
+  },
+  "0x58a4884182d9e835597f405e5f258290e46ae7c2": {
+    "name": "NOAHCOIN",
+    "coin": "NOAH",
+    "logo": "https://etherscan.io/token/images/noahcoin_28.png",
+    "fighter": "generic"
+  },
+  "0xa15c7ebe1f07caf6bff097d8a589fb8ac49ae5b3": {
+    "name": "Pundi X Token",
+    "coin": "NPXS",
+    "logo": "https://etherscan.io/token/images/pundix-28.png",
+    "fighter": "generic"
+  },
+  "0x419d0d8bdd9af5e606ae2232ed285aff190e711b": {
+    "name": "FunFair",
+    "coin": "FUN",
+    "logo": "https://etherscan.io/token/images/FunFair.png",
+    "fighter": "generic"
+  },
+  "0xdd974d5c2e2928dea5f71b9825b8b646686bd200": {
+    "name": "KyberNetwork",
+    "coin": "KNC",
+    "logo": "https://etherscan.io/token/images/kyber2_28.png",
+    "fighter": "generic"
+  },
+  "0x744d70fdbe2ba4cf95131626614a1763df805b9e": {
+    "name": "StatusNetwork",
+    "coin": "SNT",
+    "logo": "https://etherscan.io/token/images/status.png",
+    "fighter": "generic"
+  },
+  "0x21ab6c9fac80c59d401b37cb43f81ea9dde7fe34": {
+    "name": "Baer Chain",
+    "coin": "BRC",
+    "logo": "https://etherscan.io/token/images/baerchain_28.png",
+    "fighter": "generic"
+  },
+  "0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec": {
+    "name": "Polymath",
+    "coin": "POLY",
+    "logo": "https://etherscan.io/token/images/polymath_28.png",
+    "fighter": "generic"
+  },
+  "0x9ab165d795019b6d8b3e971dda91071421305e5a": {
+    "name": "Aurora",
+    "coin": "AOA",
+    "logo": "https://etherscan.io/token/images/aurora_AOA_28.png",
+    "fighter": "generic"
+  },
+  "0xa74476443119A942dE498590Fe1f2454d7D4aC0d": {
+    "name": "Golem",
+    "coin": "GNT",
+    "logo": "https://etherscan.io/token/images/golem_28.png?v=2",
+    "fighter": "generic"
+  },
+  "0xe41d2489571d322189246dafa5ebde1f4699f498": {
+    "name": "ZRX",
+    "coin": "ZRX",
+    "logo": "https://etherscan.io/token/images/zrx_28.png?v=3",
+    "fighter": "generic"
+  },
+  "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03": {
+    "name": "EthLend",
+    "coin": "LEND",
+    "logo": "https://etherscan.io/token/images/ethlend_28.png",
+    "fighter": "generic"
+  },
+  "0x514910771af9ca656af840dff83e8264ecf986ca": {
+    "name": "ChainLink Token",
+    "coin": "LINK",
+    "logo": "https://etherscan.io/token/images/chainlink_28_2.png",
+    "fighter": "generic"
+  },
+  "0xB8c77482e45F1F44dE1745F52C74426C631bDD52": {
+    "name": "BNB",
+    "coin": "BNB",
+    "logo": "https://etherscan.io/token/images/bnb_28_2.png",
+    "fighter": "generic"
+  },
+  "0x0d8775f648430679a709e98d2b0cb6250d2887ef": {
+    "name": "BAT",
+    "coin": "BAT",
+    "logo": "https://etherscan.io/token/images/bat.png",
+    "fighter": "generic"
+  },
+  "0x0cf0ee63788a0849fe5297f3407f701e122cc023": {
+    "name": "DATAcoin",
+    "coin": "DATA",
+    "logo": "https://etherscan.io/token/images/streamr2_28.png",
+    "fighter": "generic"
+  },
+  "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07": {
+    "name": "OMG Network",
+    "coin": "OMG",
+    "logo": "https://etherscan.io/token/images/OMGNetwork_32.png",
+    "fighter": "generic"
+  },
+  "0x58b6a8a3302369daec383334672404ee733ab239": {
+    "name": "Livepeer Token",
+    "coin": "LPT",
+    "logo": "https://etherscan.io/token/images/livepeer_28.png",
+    "fighter": "generic"
+  }
+}

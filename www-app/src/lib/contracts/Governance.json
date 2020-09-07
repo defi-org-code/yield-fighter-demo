@@ -1,0 +1,848 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_powerToken",
+          "type": "address"
+        },
+        {
+          "internalType": "contract ITokenWhitelist",
+          "name": "_whitelist",
+          "type": "address"
+        },
+        {
+          "internalType": "contract IFightersPoolFactory",
+          "name": "_singlePeriodPoolFactory",
+          "type": "address"
+        },
+        {
+          "internalType": "contract IFightersPoolFactory",
+          "name": "_multiPeriodPoolFactory",
+          "type": "address"
+        },
+        {
+          "internalType": "contract IBFactory",
+          "name": "_balancerFactory",
+          "type": "address"
+        },
+        {
+          "internalType": "uint32",
+          "name": "_fightingTime",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "_farmingTime",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "_feeRate",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "_cooldownRounds",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "_launchPoolGracePeriod",
+          "type": "uint32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor",
+      "signature": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "FeeCollected",
+      "type": "event",
+      "signature": "0x06c5efeff5c320943d265dc4e5f1af95ad523555ce0c1957e367dda5514572df"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "uint32",
+          "name": "round",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "backer",
+          "type": "address"
+        }
+      ],
+      "name": "InitialBacking",
+      "type": "event",
+      "signature": "0x5eba8797ef4ff497f54055ee58df8a09dd4e1d3a26e02ea72949471045d3f983"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "uint32",
+          "name": "round",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "winnerToken",
+          "type": "address"
+        }
+      ],
+      "name": "LaunchPoolCalledAfterGracePeriod",
+      "type": "event",
+      "signature": "0x6b569840e46381cf570de32d118c302d13f240847c60d8aff134c043abb417fd"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "uint32",
+          "name": "round",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "power",
+          "type": "uint256"
+        }
+      ],
+      "name": "LeaderTokenChanged",
+      "type": "event",
+      "signature": "0x044b5ad3ead1bac6158c1838624f4ff3de6e3246a4418208367c4fa9aac9c4ff"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnershipTransferred",
+      "type": "event",
+      "signature": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint32",
+          "name": "round",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "poolToken",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "mintedRewards",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "fees",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "starttime",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "pool",
+          "type": "address"
+        }
+      ],
+      "name": "PoolCreated",
+      "type": "event",
+      "signature": "0xce24172a7da618af422ddc374ce208cf84e0c08a4de7cbfc862a6c49672db67e"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "uint32",
+          "name": "round",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "by",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "added",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "total",
+          "type": "uint256"
+        }
+      ],
+      "name": "PowerAddedToToken",
+      "type": "event",
+      "signature": "0xfcf8d6d252414e384b481057560fd84d5fab2b898b684285e7e30d6b41d6f144"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "staker",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "StakeWithdrawn",
+      "type": "event",
+      "signature": "0x8108595eb6bad3acefa9da467d90cc2217686d5c5ac85460f8b7849c840645fc"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "staker",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "total",
+          "type": "uint256"
+        }
+      ],
+      "name": "StakedPowerToken",
+      "type": "event",
+      "signature": "0x71dab221aec22810f878c683b41a637898851cc2f8ba11f28e1c8d7ac71658ce"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "balancerFactory",
+      "outputs": [
+        {
+          "internalType": "contract IBFactory",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x72d6e87d"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "collectedFees",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x9003adfe"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "currentRound",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "totalWeightedPower",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "leadingToken",
+          "type": "address"
+        },
+        {
+          "internalType": "uint32",
+          "name": "stateStartTime",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "roundCount",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint8",
+          "name": "state",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x8a19c8bc"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "farmingRounds",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "baseToken",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "poolToken",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tokenTotalPower",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "pool",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0xa21f9202"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "isOwner",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x8f32d59b"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "multiPeriodPoolFactory",
+      "outputs": [
+        {
+          "internalType": "contract IFightersPoolFactory",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x8b76dd16"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x8da5cb5b"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "powerToken",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x9662ac58"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "renounceOwnership",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0x715018a6"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "settings",
+      "outputs": [
+        {
+          "internalType": "uint32",
+          "name": "feeRate",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "cooldownRounds",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "fightingTime",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "farmingTime",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "launchPoolGracePeriod",
+          "type": "uint32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0xe06174e4"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "singlePeriodPoolFactory",
+      "outputs": [
+        {
+          "internalType": "contract IFightersPoolFactory",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0xf4bdd7e9"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "stakers",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "total",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "stakedAtRound",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "backedAtRound",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x9168ae72"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "tokens",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "addr",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "totalPower",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint32",
+          "name": "roundCount",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "lastWinningRound",
+          "type": "uint32"
+        },
+        {
+          "internalType": "bool",
+          "name": "backed",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0xe4860339"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0xf2fde38b"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "whitelist",
+      "outputs": [
+        {
+          "internalType": "contract ITokenWhitelist",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x93e59dc1"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "rewards",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "starttime",
+          "type": "uint256"
+        }
+      ],
+      "name": "createSinglePeriodPool",
+      "outputs": [
+        {
+          "internalType": "contract IFightersSinglePeriodPool",
+          "name": "pool",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0x6945a0f3"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "totalRewards",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "firstPeriodRewards",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "periodDuration",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "rewardReduceFactor",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "starttime",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "endtime",
+          "type": "uint256"
+        }
+      ],
+      "name": "createMultiPeriodPool",
+      "outputs": [
+        {
+          "internalType": "contract IFightersMultiPeriodPool",
+          "name": "pool",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0xdf42a5c3"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "stakePowerToken",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0xccdf7af5"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "name": "backToken",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0x7f4b5aef"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "name": "stakeAndBack",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0x33aa322d"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "poolToken",
+          "type": "address"
+        }
+      ],
+      "name": "launchPool",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0x79807af8"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "withdraw",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0x3ccfd60b"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getCurrentRound",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "leadingToken",
+          "type": "address"
+        },
+        {
+          "internalType": "uint32",
+          "name": "stateStartTime",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "roundCount",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint8",
+          "name": "state",
+          "type": "uint8"
+        },
+        {
+          "internalType": "uint256",
+          "name": "totalWeightedPower",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0xa32bf597"
+    }
+  ],
+  "networks": {
+    "42": {
+      "address": "0xdC85eC0b0806E5D29974405c51731Ccb84b61fb4"
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "roundNumber": 0,
+  "subPools": {
+    "usdt": {
+      "name": "Safe Haven",
+      "poolAddress": "0x90D6E16D0D0E3Af6100CAEE51B071e430c3d4Aa4",
+      "poolStartTime": 0,
+      "seedToken": {
+        "address": "0x981ad326114682a0B80480b53aD168D0C598041F",
+        "coin": "USDT",
+        "logo": "https://etherscan.io/token/images/tether_32.png",
+        "name": "Tether USD"
+      }
+    },
+    "usdt2": {
+      "name": "Safe Haven 2",
+      "poolAddress": "0x90D6E16D0D0E3Af6100CAEE51B071e430c3d4Aa4",
+      "poolStartTime": 0,
+      "seedToken": {
+        "address": "0x981ad326114682a0B80480b53aD168D0C598041F",
+        "coin": "USDT",
+        "logo": "https://etherscan.io/token/images/tether_32.png",
+        "name": "Tether USD"
+      }
+    },
+    "usdt3": {
+      "name": "Safe Haven 3",
+      "poolAddress": "0x90D6E16D0D0E3Af6100CAEE51B071e430c3d4Aa4",
+      "poolStartTime": 0,
+      "seedToken": {
+        "address": "0x981ad326114682a0B80480b53aD168D0C598041F",
+        "coin": "USDT",
+        "logo": "https://etherscan.io/token/images/tether_32.png",
+        "name": "Tether USD"
+      }
+    },
+    "usdt4": {
+      "name": "Safe Haven 4",
+      "poolAddress": "0x90D6E16D0D0E3Af6100CAEE51B071e430c3d4Aa4",
+      "poolStartTime": 0,
+      "seedToken": {
+        "address": "0x981ad326114682a0B80480b53aD168D0C598041F",
+        "coin": "USDT",
+        "logo": "https://etherscan.io/token/images/tether_32.png",
+        "name": "Tether USD"
+      }
+    },
+    "usdt5": {
+      "name": "Safe Haven 5",
+      "poolAddress": "0x90D6E16D0D0E3Af6100CAEE51B071e430c3d4Aa4",
+      "poolStartTime": 0,
+      "seedToken": {
+        "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "coin": "USDT",
+        "logo": "https://etherscan.io/token/images/tether_32.png",
+        "name": "Tether USD"
+      }
+    },
+    "usdt6": {
+      "name": "Safe Haven 6",
+      "poolAddress": "0x90D6E16D0D0E3Af6100CAEE51B071e430c3d4Aa4",
+      "poolStartTime": 0,
+      "seedToken": {
+        "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "coin": "USDT",
+        "logo": "https://etherscan.io/token/images/tether_32.png",
+        "name": "Tether USD"
+      }
+    },
+    "usdt7": {
+      "name": "Safe Haven 7",
+      "poolAddress": "0x90D6E16D0D0E3Af6100CAEE51B071e430c3d4Aa4",
+      "poolStartTime": 0,
+      "seedToken": {
+        "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "coin": "USDT",
+        "logo": "https://etherscan.io/token/images/tether_32.png",
+        "name": "Tether USD"
+      }
+    },
+    "usdt8": {
+      "name": "Safe Haven 8",
+      "poolAddress": "0x90D6E16D0D0E3Af6100CAEE51B071e430c3d4Aa4",
+      "poolStartTime": 0,
+      "seedToken": {
+        "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "coin": "USDT",
+        "logo": "https://etherscan.io/token/images/tether_32.png",
+        "name": "Tether USD"
+      }
+    },
+    "usdt9": {
+      "name": "Safe Haven 9",
+      "poolAddress": "0x90D6E16D0D0E3Af6100CAEE51B071e430c3d4Aa4",
+      "poolStartTime": 0,
+      "seedToken": {
+        "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "coin": "USDT",
+        "logo": "https://etherscan.io/token/images/tether_32.png",
+        "name": "Tether USD"
+      }
+    },
+    "usdt10": {
+      "name": "Safe Haven 10",
+      "poolAddress": "0x90D6E16D0D0E3Af6100CAEE51B071e430c3d4Aa4",
+      "poolStartTime": 0,
+      "seedToken": {
+        "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "coin": "USDT",
+        "logo": "https://etherscan.io/token/images/tether_32.png",
+        "name": "Tether USD"
+      }
+    },
+    "usdt11": {
+      "name": "Safe Haven 11",
+      "poolAddress": "0x90D6E16D0D0E3Af6100CAEE51B071e430c3d4Aa4",
+      "poolStartTime": 0,
+      "seedToken": {
+        "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "coin": "USDT",
+        "logo": "https://etherscan.io/token/images/tether_32.png",
+        "name": "Tether USD"
+      }
+    },
+    "usdt12": {
+      "name": "Safe Haven 12",
+      "poolAddress": "0x90D6E16D0D0E3Af6100CAEE51B071e430c3d4Aa4",
+      "poolStartTime": 0,
+      "seedToken": {
+        "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "coin": "USDT",
+        "logo": "https://etherscan.io/token/images/tether_32.png",
+        "name": "Tether USD"
+      }
+    }
+  }
+}

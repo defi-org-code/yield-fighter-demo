@@ -1,0 +1,132 @@
+div.PowerBalance {
+  position: absolute;
+  top: 3vh;
+  left: 3vh;
+  text-align: center;
+}
+
+div.StakeNewFighter {
+  position: absolute;
+  top: 3vh;
+  right: 3vh;
+}
+
+div.PowerBalanceSegment {
+  background-color: rgba(255, 204, 149, 0.7) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+div.PowerBalance h3 {
+  margin-bottom: 20px !important;
+}
+
+p.PowerBalanceLabel {
+  margin-top: 20px !important;
+  margin-bottom: 5px !important;
+  font-size: 0.8rem;
+}
+
+div.FightMessage {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  color: white;
+}
+
+div.FightMessage.HaveWinner {
+  margin-left: 30vw;
+}
+
+.Fighter {
+  position: absolute;
+  left: 0;
+  bottom: 3vh;
+}
+
+.FighterSvg {
+  height: 78vh;
+}
+
+div.PowerBar {
+  height: 20px;
+  left: 0;
+  top: 17vh;
+  position: absolute;
+  width: 10vw;
+  transform: translateX(-50%);
+  border: 2px solid white;
+  background-color: white;
+}
+
+div.PowerBar > span {
+  display: block;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background-image: url("/fighters/powerbar.png");
+  z-index: 1;
+  background-size: 10vw 20px;
+}
+
+img.FighterCrown {
+  position: absolute;
+  left: 0;
+  top: 6.7vh;
+  transform: translateX(-50%);
+  height: 3vh;
+}
+
+.Fighter h1 {
+  position: absolute;
+  left: 0;
+  top: 11vh;
+  transform: translateX(-50%);
+}
+
+.Fighter h1 > img {
+  background-color: white !important;
+  max-height: 42px !important;
+  max-width: 42px !important;
+  margin-top: 0 !important;
+  margin-bottom: 11px !important;
+  margin-right: 10px !important;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+}
+
+.Fighter button {
+  position: absolute;
+  left: 0;
+  top: 11vh;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.Fighter .PowerBarAmount {
+  font-size: 0.6rem;
+  height: 20px;
+  left: 0;
+  top: 17vh;
+  position: absolute;
+  width: 10vw;
+  transform: translateX(-50%);
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  color: #797979;
+}
+
+.FightFinished {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #fff477;
+  text-shadow: -1px -1px 0 rgb(255, 98, 0), 1px -1px 0 rgb(255, 98, 0), -1px 1px 0 rgb(255, 98, 0), 3px 3px 0 #005af5,
+    4px 4px 0 #005af5;
+  margin-bottom: 1rem;
+}
+
+.NextFight {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #fff477;
+  text-shadow: -1px -1px 0 rgb(255, 98, 0), 1px -1px 0 rgb(255, 98, 0), -1px 1px 0 rgb(255, 98, 0), 3px 3px 0 #005af5,
+    4px 4px 0 #005af5;
+}
