@@ -1,0 +1,7 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+@fontName : 'Press Start 2P';
+@primaryColor: #F3B300;
+@lightPrimaryColor: #FFBB00;
