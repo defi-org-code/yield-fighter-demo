@@ -199,7 +199,7 @@ function App() {
       </Anime>
 
       <div className="ButtonsOverlay">
-        <a href="https://github.com/defi-org-code/YieldFighterDemo">
+        <a href="https://github.com/defi-org-code/yield-fighter-demo">
           <img src={githubButton} width="32" height="32" />
         </a>
         <a href="https://t.me/defiorg">
