@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.631691c6.chunk.css",
+    "main.js": "/static/js/main.ac142a88.chunk.js",
+    "main.js.map": "/static/js/main.ac142a88.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.84cfcdfc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.84cfcdfc.js.map",
+    "static/js/2.5a3985fe.chunk.js": "/static/js/2.5a3985fe.chunk.js",
+    "static/js/2.5a3985fe.chunk.js.map": "/static/js/2.5a3985fe.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e24287d33dbf64fc0e280f14c52f8c2c.js": "/precache-manifest.e24287d33dbf64fc0e280f14c52f8c2c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.631691c6.chunk.css.map": "/static/css/main.631691c6.chunk.css.map",
+    "static/js/2.5a3985fe.chunk.js.LICENSE.txt": "/static/js/2.5a3985fe.chunk.js.LICENSE.txt",
+    "static/media/defiorg.svg": "/static/media/defiorg.cdadbb54.svg",
+    "static/media/github.svg": "/static/media/github.25a51bf0.svg",
+    "static/media/link-bottom.png": "/static/media/link-bottom.a61209d6.png",
+    "static/media/link-extra.png": "/static/media/link-extra.bf68e8c6.png",
+    "static/media/link-face.png": "/static/media/link-face.b96f4140.png",
+    "static/media/logo.svg": "/static/media/logo.3d7e58e6.svg",
+    "static/media/medium.svg": "/static/media/medium.fe842a2e.svg",
+    "static/media/telegram.svg": "/static/media/telegram.44034b40.svg",
+    "static/media/App.css": "/static/media/vs.485f8dab.jpg",
+    "static/media/yam-bottom.png": "/static/media/yam-bottom.d979a4cd.png",
+    "static/media/yam-extra.png": "/static/media/yam-extra.5961152e.png",
+    "static/media/yam-face.png": "/static/media/yam-face.1720eec3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84cfcdfc.js",
+    "static/js/2.5a3985fe.chunk.js",
+    "static/css/main.631691c6.chunk.css",
+    "static/js/main.ac142a88.chunk.js"
+  ]
+}
