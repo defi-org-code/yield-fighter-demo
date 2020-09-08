@@ -24,6 +24,8 @@ https://medium.com/@defiorg/yield-fighter-where-tokens-compete-to-become-the-nex
 
     * `www-landing` - the landing page
 
+    * `docs` - deploy target for landing page (for GitHub pages hosting)
+
     Every main directory has a README file that explains its contents and provides more details for the steps below. The gist of running everything together is:
 
 3. The project is currently configured to run on Kovan (contracts + client).
