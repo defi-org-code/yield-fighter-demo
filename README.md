@@ -54,7 +54,7 @@ https://medium.com/@defiorg/yield-fighter-where-tokens-compete-to-become-the-nex
 
 ---
 
-## TLDR - what is Yield Fighter?!
+## TLDR - what is Yield Fighter?
 
 Yield Fighter is a massive-multiplayer governance game in which token communities compete in street fights for becoming the next yield farm.
 
